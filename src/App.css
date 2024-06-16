@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+ 
+body{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: bisque;
+}
+.navbar1{
+    width:100px;
+}
+.navbar1 img{
+    object-fit: contain;
+    border-radius: 50%;
+    aspect-ratio: 1/3;
+}
+.navbar2{
+    width: 500px;
+    border: 1px solid red;
+    text-align: center;
+}
+.navbar2 p{
+    margin-top: 10px;
+    font-size: 22px;
+}
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.peopleBox{
+    border: 1px solid red;
+    width: 250px;
+}
+.pp {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* App.css */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Adds spacing between items */
+    padding: 1rem; /* Adds padding around the container */
+    justify-content: center; /* Centers the cards horizontally */
+  }
+  
+  .card {
+    width: 18rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Adds a hover effect */
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-body p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  .card-body .links {
+    margin-top: 1rem;
+  }
+  
+  .card-body .links p {
+    color: #007bff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+  
+  .card-body .links p:hover {
+    text-decoration: underline;
+  }
+  
+  .card-body .links i {
+    margin-left: 0.5rem;
+  }
+  
+  .bb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
