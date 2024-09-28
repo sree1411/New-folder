@@ -1,6 +1,6 @@
 import axios from "axios";
 export class ContactServer {
-  static baseUrl = `https://json-server-example.onrender.com`;
+  static baseUrl = `http://localhost:8001`;
 
   static getAllDetails() {
     let dataURL = `${this.baseUrl}/contacts`;

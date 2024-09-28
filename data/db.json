@@ -1,0 +1,55 @@
+{
+    "contacts": [
+      {
+        "id": "1",
+        "name": "sree",
+        "age": 22,
+        "phone": "123456789",
+        "blood": "B+",
+        "place": "venkatagiri",
+        "gender": "male"
+      },
+      {
+        "id": "508b",
+        "name": "virat kohli",
+        "age": "ss",
+        "gender": "female",
+        "phone": "s",
+        "place": "s",
+        "blood": "A"
+      },
+      {
+        "id": "c4b4",
+        "name": "sreekanth renati",
+        "age": "22",
+        "gender": "male",
+        "phone": "123456789",
+        "place": "venkatagiri",
+        "blood": "A"
+      },
+      {
+        "id": "5a39",
+        "name": "sreekanth",
+        "age": "22",
+        "gender": "male",
+        "phone": "123456",
+        "place": "vgr",
+        "blood": "A"
+      }
+    ],
+    "comments": [
+      {
+        "id": "1",
+        "text": "a comment about post 1",
+        "postId": "1"
+      },
+      {
+        "id": "2",
+        "text": "another comment about post 1",
+        "postId": "1"
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
